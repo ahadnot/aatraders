@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  background: #fce4ec;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: #f06292;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav ul li a:hover {
+  color: #ffccbc;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/hero-bg.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  background: #f8bbd0;
+  color: #880e4f;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero .btn:hover {
+  background: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.product h3 {
+  margin-top: 10px;
+  color: #880e4f;
+}
+
+/* Contact Form */
+form input, form textarea, form select {
+  width: 100%;
+[_{{{CITATION{{{_1{](https://github.com/AleksandrHovhannisyan/aleksandrhovhannisyan.com/tree/7f0325124bbaeb5808069e7a034b588d41d78234/src%2F_posts%2F2020-07-01-simple-webpack-config.md)[_{{{CITATION{{{_2{](https://github.com/vwkd/code-web/tree/65bce93ff767fb20349f2c3a8f4eaa9b1451d111/content%2Flanguages%2Fhtml%2Flists%2Findex.md)[_{{{CITATION{{{_3{](https://github.com/w3c/wai-mobile-intro/tree/214e9fc3601674c6b61cd24057373517e01ea02a/source%2Fmobile%2Fmobile-menus.html.erb.md)[_{{{CITATION{{{_4{](https://github.com/xingyuliuNLP/wiremesh_materialize/tree/7bd7bcef54559a1bcc4287ee9a30f660a7f6949e/js%2Fmain.js)[_{{{CITATION{{{_5{](https://github.com/Rakeshkarnam/Rakeshkarnam.github.io/tree/3e60e8f506bc32aaf312bf666457f7bef6f45da7/includes%2Fheader.php)[_{{{CITATION{{{_6{](https://github.com/CarlNierves/CarlNierves.github.io/tree/faf325f68517f148ef66653d9dbd3488d7e85b91/index.php)[_{{{CITATION{{{_7{](https://github.com/Fonkio/projet-PHP-IUT/tree/6a6789cd9e1c66820099afaf43ec1ccc82c02bcb/ajouterNote.php)[_{{{CITATION{{{_8{](https://github.com/Oren-Karaso/Dorran-Oren-AppSus/tree/ca907fea9fdaf73ce0709a926c3e420ee4c14af2/js%2Fapps%2Fbook%2Fbook-pages%2Fbook-details.cmp.js)
